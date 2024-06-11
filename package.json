@@ -1,0 +1,23 @@
+{
+  "name": "wecon-server-mvc",
+  "version": "0.0.1",
+  "description": "Server for UNICONTROL",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "dev": "nodemon ./config/server.js"
+  },
+  "author": "LeandroNatanael",
+  "license": "ISC",
+  "dependencies": {
+    "abort-controller": "^3.0.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "expo-notifications": "^0.28.1",
+    "expo-server-sdk": "^3.10.0",
+    "express": "^4.19.2",
+    "md5": "^2.3.0",
+    "node-fetch": "^3.3.2",
+    "nodemon": "^3.1.0"
+  }
+}
